@@ -1,46 +1,57 @@
 
-# My Budget Tracker 💰
+# SpendWise Dashboard Shell 💰
 
 ## Project Description
-My Budget Tracker is a simple and professional web application design created to help users organize and monitor their expenses.
+SpendWise is a responsive financial dashboard layout designed to help users view and organize their financial information.
 
-## Project Features
-- Budget summary cards.
-- Add Expense form design.
-- Expense history table.
-- Professional green and white color palette.
-- Responsive layout for mobile devices.
-- Google Fonts typography.
+This project focuses on CSS Grid, Flexbox, responsive design, and modern dashboard styling. It uses static sample financial information without adding application functionality.
+
+## Dashboard Features
+- Sidebar navigation menu.
+- Dashboard header with user profile.
+- Six financial category cards.
+- Food, Transport, Rent, Entertainment, Savings, and Utilities.
+- Responsive single-column layout for smaller screens.
+- Card hover and keyboard focus animations.
+- Light and dark theme support.
 
 ## Technologies Used
 - HTML5
 - CSS3
+- CSS Grid
+- Flexbox
+- CSS Custom Properties
 - Google Fonts
 
-## Design Choices
+## Layout Techniques
 
-### Color Palette
-- Emerald Green: Main theme color.
-- White: Card backgrounds.
-- Light Green: Page background.
-- Dark Green: Text and headings.
+### CSS Grid
+CSS Grid is used to create the overall dashboard layout and arrange the six category cards.
 
-### Typography
-- Merriweather: Main headings.
-- Poppins: Body text, forms and tables.
+### Flexbox
+Flexbox is used to arrange the sidebar navigation, header content, and individual card content.
 
-### CSS Box Model
-Margin, padding, borders and border-radius are used to create clear sections and improve readability.
+### Responsive Design
+A media query adapts the dashboard into a single-column layout on screens below 768px.
+
+### CSS Variables
+The :root selector defines the brand color, accent color, background, surface, primary text, and secondary text colors.
+
+### Micro-interactions
+Dashboard cards use 200ms hover and keyboard focus transitions with transform and box-shadow.
+
+### Dark Theme
+The prefers-color-scheme: dark media query overrides the root theme variables to support dark mode.
 
 ## Project Files
-- `index.html` - Contains the page structure.
-- `style.css` - Controls colors, fonts, spacing and visual design.
-- `README.md` - Explains the project and design choices.
+- index.html - Contains the dashboard structure and static content.
+- style.css - Contains the layout, colors, typography, responsiveness, and animations.
+- README.md - Explains the project and technologies used.
 
-## How to View the Project
-1. Download or clone the repository.
-2. Open `index.html` in a web browser.
-3. View the Budget Tracker design.
+## How to View
+1. Download or clone this repository.
+2. Open index.html in a web browser.
+3. View the SpendWise dashboard.
 
 ## Author
 Budget Tracker Student Project
